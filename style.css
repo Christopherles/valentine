@@ -849,3 +849,12 @@ button:hover {
   top: calc(var(--h) * -1);
   width: calc(var(--w) + 1vmin);
   height: va
+.letter {
+  position: relative;
+  top: 0;
+  transition: top 0.6s ease-in-out;
+}
+
+.wrapper.open .letter {
+  top: -120px; /* ou la valeur qui rend bien pour toi */
+	}
